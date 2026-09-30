@@ -1,0 +1,18 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Сгенерированные PDF
+output/*.pdf
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python кеш
+__pycache__/
+*.pyc

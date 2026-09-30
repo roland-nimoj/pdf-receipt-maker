@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чек {{ invoice_id }}</title>
+</head>
+<body>
+    <h1>Чек № {{ invoice_id }}</h1>
+    <p><b>Клиент:</b> {{ customer_name }}</p>
+    <p><b>Дата:</b> {{ date }}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Товар</th>
+                <th>Цена</th>
+                <th>Кол-во</th>
+                <th>Сумма</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ rows }}
+        </tbody>
+    </table>
+    <p class="total">Итого: {{ total }} ₽</p>
+</body>
+</html>

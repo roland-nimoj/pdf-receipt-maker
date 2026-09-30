@@ -1,0 +1,20 @@
+[
+  {
+    "invoice_id": "INV-101",
+    "customer_name": "Алексей Смирнов",
+    "date": "2024-05-03",
+    "items": [
+      {"product": "Капучино", "price": 220, "qty": 1},
+      {"product": "Тирамису", "price": 350, "qty": 2}
+    ]
+  },
+  {
+    "invoice_id": "INV-102",
+    "customer_name": "Ольга Кузнецова",
+    "date": "2024-05-03",
+    "items": [
+      {"product": "Матча Латте", "price": 310, "qty": 1},
+      {"product": "Круассан классический", "price": 160, "qty": 3}
+    ]
+  }
+]
